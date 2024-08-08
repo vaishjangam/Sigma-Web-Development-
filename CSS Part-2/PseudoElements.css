@@ -1,0 +1,15 @@
+/*First-letter*/
+h1::first-letter{
+    color:orange;
+}
+
+/*first-line*/
+p::first-line{
+    background-color:hotpink;
+    font-weight: bolder;
+}
+
+/*selection*/
+p::selection{
+    background-color: rgb(220, 226, 43);
+}

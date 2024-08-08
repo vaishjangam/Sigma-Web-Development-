@@ -1,0 +1,55 @@
+/* ==Universal Selector==*/
+*{
+    font-family:'Times New Roman', Times, serif;
+    background-color: rgb(234, 220, 232);
+}
+
+/*Element Selector*/
+h1,h3{
+    color:#b92b27;
+}
+
+/*ID selector*/
+#login{
+    background-color: #ffffffff;
+}
+#signup{
+    background-color: #b92b27;
+    color:rgb(255, 255, 255)
+}
+
+/*Class selector*/
+.upvote{
+    background-color: #0f0;
+}
+
+/*Descendent Selector*/
+.post a{
+    color:rgb(133, 17, 110);
+}
+
+/*Adjacent sibling combinator*/
+p + h3{
+    text-decoration:underline;
+}
+.upvote + button{
+    background-color: rgb(255, 128, 0);
+    color:black;
+}
+
+/*Child combinator*/
+div > input{
+    background-color: rgb(238, 152, 238);
+    color:white;
+}
+
+/*Attribute selector*/
+input[type="text"]{
+    color:yellow;
+}
+input[type="password"]{
+    color:black;
+}
+input[type]{
+    background-color: #0f0;
+}

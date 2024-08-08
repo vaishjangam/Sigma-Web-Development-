@@ -1,0 +1,29 @@
+/****** PART A(Selectors)********/
+
+/*s2.Align all the text in the page to the center using a universal selector.*/
+*{
+    text-align: center;
+}
+
+/*Qs1.Give the h1 header a unique id-“main Topic” & set its color to blue using the id selector.*/
+#mainTopic{
+    color:blue;
+}
+
+/* Qs3.Change the font style of all heading tags in the page to ‘Georgia' */
+h1,h3,h5{
+    font-family:Georgia;
+}
+/* 
+Qs4.Set the color of all the paragraphs to white & background color to cornflowerblue.
+(Without using the element selector-‘p’) */
+.para{
+    color:white;
+    background-color: cornflowerblue;
+}
+
+/*Qs5.Select all buttons inside div and change their background  color to purple & textcolor to azure*/
+div  button{
+    background-color: purple;
+    color: azure
+}
