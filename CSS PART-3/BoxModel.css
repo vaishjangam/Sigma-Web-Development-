@@ -1,0 +1,40 @@
+div{
+    /*****Height & width*****/
+    height:200px;
+    width:500px;
+    background-color: pink;
+
+    /******Border**********/
+    /* border-width: 100px;
+    border-style: solid;
+    border-color: purple; */
+
+    /*border shorthands*/
+     border:2px dashed pink; 
+
+    /*border sides*/
+    border-right-color: yellow;
+    border-right-style:dashed;
+    border-right-width:5px;
+    border-top-width:5px;
+    border-top-color: yellowgreen;
+
+    /*border radius: make corner round shape*/
+    border-radius: 20px;
+    /*padding*/
+    padding:50px;
+
+    /*margin*/
+    margin-bottom: 10px;
+}
+
+h1{
+    border:2px dashed purple;
+    border-radius: 50px;
+}
+
+button{
+    padding: 10px;
+    border-radius:50px;
+    margin:10px 10px 10px 10px;
+}

@@ -1,0 +1,16 @@
+/*
+Qs2: Create 3 divs with the following properties:
+Height & Width: 100px
+Background color: Pink
+Border: 2px solid black
+Shape: Circle
+Place them in a single line
+*/
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+    border:2px solid black;
+    border-radius: 50%;
+    display:inline-block;
+}

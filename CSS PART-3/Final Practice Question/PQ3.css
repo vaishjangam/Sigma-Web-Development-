@@ -1,0 +1,6 @@
+/*Qs3: Create a list of technologies and change the display of all list items to inline:
+Technologies: HTML, CSS, JavaScript, NodeJS, ReactJS, SQL, MongoDB, Java, C++, C, Python
+Observe that bullet points disappear when using inline*/
+li{
+    display: inline;
+}
