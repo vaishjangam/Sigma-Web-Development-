@@ -1,0 +1,52 @@
+/*types of transforms: 1)Rotate
+                       2)Scale
+                       3)Translate
+                       4)Skew
+*/
+section{
+    margin-top:100px;
+}
+
+div{
+    width:100px;
+    height:100px;
+    text-align:center;
+    background-color: rgb(182, 36, 116);
+    border:2px solid black;
+    margin-bottom:20px
+}
+
+div :nth-of-type(2n){
+background-color: rgb(23, 87, 224);
+}
+
+div :nth-of-type(3n){
+    background-color: rgb(108, 20, 150);
+}
+
+/*Tranform =>rotate*/
+
+#one{
+    transform:rotate(90deg);
+    height: auto;
+    width: 50px;;
+}
+
+/*Transform => Scale */
+#two{
+    transform:scale(0.5);
+}
+#three{
+    transform:scale(0.5 2);
+}
+
+/*Transform => Translate*/
+#four{
+    transform:translateX(100px);
+}
+
+/*Tranform => Skew*/
+#five{
+    transform:skew(50deg);
+}
+

@@ -1,0 +1,37 @@
+div{
+    height:200px;
+    width:300px;
+    background-color: rgb(255, 47, 179,1);
+    border: 2px solid black;
+    margin-bottom:2px ;
+}
+
+#box{
+    height: 200px;
+    width:300px;
+    background-color: rgba(255, 47, 179, 0.5);
+    border: 2px solid black;
+}
+
+#box1{
+    height: 200px;
+    width:300px;
+    background-color: rgba(255, 47, 179, 0);
+    border: 2px solid black;
+}
+
+#opacity{
+    height: 200px;
+    width:300px;
+    background-color: rgb(161, 84, 133);
+    border: 2px solid black;
+    opacity:1;
+}
+
+#opacity1{
+    height: 200px;
+    width:300px;
+    background-color: rgb(161, 84, 133);
+    border: 2px solid black;
+    opacity:0;
+}
