@@ -1,0 +1,79 @@
+#Container{
+    height : 300px;
+    width : 80%;
+    background-color: aliceblue;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+     flex-direction: row; /*For Horizontal */
+     /* flex-direction: column;           For vertical */
+
+    /*==============================Justify Content================*/
+    
+    /*justify-content: space-around;*/
+    /*justify-content: space-between;*/
+   /*justify-content: center;*/
+   justify-content: flex-start;
+   /*justify-content:flex-end;*/
+   /*justify-content: space-evenly;*/
+   /*justify-content: stretch;*/
+
+   /*===================================Flex Wrap===========================*/
+   flex-wrap:nowrap;
+   /*flex-wrap:wrap;*/
+   /*flex-wrap:wrap-reverse;*/
+
+   /*==========================Align items=========================*/
+   /*align-items : flex-start;*/
+   /*align-items : flex-end;*/
+   /*align-items : center;*/
+   /*align-items : baseline;*/
+
+   /*============================Align Content=======================================*/
+   /*align-content : center;*/
+   /*align-content:flex-start;*/
+   /*align-content : flex-end;*/
+   /*align-content : space-between;*/
+   align-content : space-around;
+
+} 
+
+/*=============================== Align-self =============================================*/
+#org{
+   /* align-self : baseline;*/
+   align-self : flex-start;
+   /*align-self :  flex-start;*/
+
+    /*=====================Flex grow====================================
+   flex-grow:2;
+   max-width:110px;  limit to the width or grow*/
+   
+    /*=====================Flex shrink====================================*/
+    flex-shrink : 1;
+}
+
+
+#blue{
+    align-self: flex-start;
+    /*=====================Flex Basis====================================*/
+    /*flex-basis: 100px;*/
+
+    /*=====================Flex grow====================================
+    flex-grow:1;
+    min-width:100px; Limit to the grow or width*/
+
+    /*=====================Flex shrink====================================*/
+    flex-shrink:2;
+}
+h1{
+    text-align: center;
+}
+
+#Container div{
+    height: 50px;
+    width: 230px;
+    color: white;
+    text-align: center;
+    font-size: 1.5em;;
+
+}
