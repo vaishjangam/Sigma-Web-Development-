@@ -1,0 +1,52 @@
+div{
+    background-color: pink;
+    border: 2px solid black;
+
+}
+
+h1{
+    text-align: center;
+}
+/*=======Media Query for exactly specific height, width, etc* will change========
+@media(width: 200px){
+    div{
+        background-color:blue;  
+    }
+   
+}
+    */
+
+/*=======Media Query for min that specified height, width etc will change===*/
+@media(min-width: 700px){
+    div{
+        background-color: blueviolet;
+        color:white; 
+    }
+
+}
+
+/*=======Media Query for max that specified height, width etc=============*/
+@media(max-width:500px){
+    div{
+        background-color: powderblue;
+    }
+}
+/*=======Media Query for range of specified height, width etc=========*/
+@media (min-width:200px) and (max-width:500px){
+    div{
+        background-color: yellow;
+    }
+
+}
+
+@media (orientation: portrait){
+    div{
+        background-color:green;
+        color:aliceblue
+    }
+        
+
+}
+
+
+
