@@ -1,0 +1,14 @@
+.horizontal-scroll {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    gap: 10px; /* optional spacing */
+  }
+  
+  .item {
+    min-width: 200px;
+    height: 150px;
+    background-color: lightblue;
+    border: 1px solid #ccc;
+    flex-shrink: 0; /* prevents shrinking */
+  }
